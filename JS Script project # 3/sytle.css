@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Utilities*/
+.row-container{
+    display: grid;
+    width: 50%;
+    grid-template-columns: auto auto auto auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.number-row{
+    display: grid;
+    width: 50%;
+    grid-template-columns: auto auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+/* Header */
+header{
+    background-color: gray;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Body */
+main{
+    background-color: lightcoral;
+    height: 95vh;
+    text-align: center;
+    padding-top: 15px;
+}
+ol{
+    width: 30%;
+    margin-left: 31.25%;
+    margin-right: 40%;
+    margin-top: 15px;
+    align-items: center;
+}
+li{
+    display: inline-block;
+    align-self: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: fit-content;
+}
+button{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+h2{
+    margin-top: 10px;
+}
+p{
+    font-size: 16px;
+}
+div.break{
+    display: block;
+    height: 1px;
+    background-color: black;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+#calculationZone{
+    margin-top: 10px;
+}
